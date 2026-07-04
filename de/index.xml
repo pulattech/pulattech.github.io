@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Pulattech</title>
+		<link>https://pulattech.com/de/</link>
+		<description>Recent content on Pulattech</description>
+		<generator>Hugo</generator>
+		<language>de-DE</language>
+		
+		
+		
+		
+			<atom:link href="https://pulattech.com/de/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Datenschutzerklärung</title>
+				<link>https://pulattech.com/de/privacy/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://pulattech.com/de/privacy/</guid>
+				<description>&lt;p&gt;Pulattech respektiert Ihre Privatsphäre. Wir glauben, dass Ihre persönlichen Daten nur Ihnen gehören.&lt;/p&gt;&#xA;&lt;h3 id=&#34;keine-datenerfassung&#34;&gt;Keine Datenerfassung&lt;/h3&gt;&#xA;&lt;p&gt;Unsere Anwendungen (einschließlich der Zähler-App) sind nach dem Prinzip &lt;strong&gt;Privacy-First&lt;/strong&gt; entwickelt:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Wir &lt;strong&gt;erheben, speichern oder teilen keine&lt;/strong&gt; Ihrer persönlichen Daten.&lt;/li&gt;&#xA;&lt;li&gt;Wir &lt;strong&gt;verwenden keine&lt;/strong&gt; Tracking-Skripte von Drittanbietern, Analyse-Tools oder Werbenetzwerke, die Sie über Websites oder Apps hinweg verfolgen.&lt;/li&gt;&#xA;&lt;li&gt;Alle Anwendungsdaten, Einstellungen und Zählerstände werden &lt;strong&gt;lokal auf Ihrem Gerät gespeichert&lt;/strong&gt;. Diese Daten werden niemals an unsere Server oder Dritte übertragen.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;systemberechtigungen&#34;&gt;Systemberechtigungen&lt;/h3&gt;&#xA;&lt;p&gt;Wenn unsere Anwendungen Systemberechtigungen anfordern (z. B. das Ändern von Systemeinstellungen oder die Aktivierung der Vibration), dienen diese ausschließlich dazu, Kernfunktionen auf Ihrem Gerät bereitzustellen:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Zähler-App (Counter)</title>
+				<link>https://pulattech.com/de/counter/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://pulattech.com/de/counter/</guid>
+				<description>&lt;p&gt;Die &lt;strong&gt;Counter&lt;/strong&gt; App von Pulattech ist ein einfaches Hilfsmittel, mit dem Sie alles Mögliche zählen können. Sie sieht schick aus, schont den Akku Ihres Telefons und ist kinderleicht zu bedienen.&lt;/p&gt;&#xA;&lt;h3 id=&#34;einfache-funktionen&#34;&gt;Einfache Funktionen&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Zählen mit den Lautstärketasten&lt;/strong&gt;&#xA;Zählen Sie, ohne auf Ihren Bildschirm schauen zu müssen. Nutzen Sie die Lautstärketasten an der Seite Ihres Telefons, um hoch oder runter zu zählen.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Spart Akku&lt;/strong&gt;&#xA;Der Bildschirm bleibt bis auf die Zahlen dunkel. Das verbraucht beim Zählen fast keinen Akku.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

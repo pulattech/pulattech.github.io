@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutzerklärung - Pulattech</title>
+  
+  
+    <meta name="description" content="Datenschutzerklärung für Pulattech Apps - Einfache Datenschutzerklärung ohne Datenerfassung.">
+  
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<header>
+  <div class="nav-container">
+    <a href="/de/" class="logo">Pulattech</a>
+    <div class="nav-links">
+      <div class="lang-dropdown">
+        <button class="lang-dropdown-btn" onclick="toggleDropdown(event)">
+          🇩🇪 Deutsch
+          <span class="dropdown-arrow">▼</span>
+        </button>
+        <div class="lang-dropdown-content" id="langDropdown">
+          
+            <a href="/privacy/" class="">
+              🇺🇸 English
+            </a>
+          
+            <a href="/tr/privacy/" class="">
+              🇹🇷 Türkçe
+            </a>
+          
+            <a href="/fr/privacy/" class="">
+              🇫🇷 Français
+            </a>
+          
+            <a href="/de/privacy/" class="active">
+              🇩🇪 Deutsch
+            </a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+function toggleDropdown(event) {
+  event.stopPropagation();
+  const dropdown = document.getElementById('langDropdown');
+  dropdown.classList.toggle('show');
+  
+  const btn = event.currentTarget;
+  btn.classList.toggle('active-btn');
+}
+
+
+window.addEventListener('click', function(event) {
+  const dropdown = document.getElementById('langDropdown');
+  const btn = document.querySelector('.lang-dropdown-btn');
+  if (dropdown && dropdown.classList.contains('show')) {
+    if (!dropdown.contains(event.target) && !btn.contains(event.target)) {
+      dropdown.classList.remove('show');
+      btn.classList.remove('active-btn');
+    }
+  }
+});
+</script>
+
+
+<main class="container">
+  <article class="privacy-container prose">
+    
+    
+      
+      <h1>Datenschutzerklärung</h1>
+      <div class="content-body">
+        <p>Pulattech respektiert Ihre Privatsphäre. Wir glauben, dass Ihre persönlichen Daten nur Ihnen gehören.</p>
+<h3 id="keine-datenerfassung">Keine Datenerfassung</h3>
+<p>Unsere Anwendungen (einschließlich der Zähler-App) sind nach dem Prinzip <strong>Privacy-First</strong> entwickelt:</p>
+<ul>
+<li>Wir <strong>erheben, speichern oder teilen keine</strong> Ihrer persönlichen Daten.</li>
+<li>Wir <strong>verwenden keine</strong> Tracking-Skripte von Drittanbietern, Analyse-Tools oder Werbenetzwerke, die Sie über Websites oder Apps hinweg verfolgen.</li>
+<li>Alle Anwendungsdaten, Einstellungen und Zählerstände werden <strong>lokal auf Ihrem Gerät gespeichert</strong>. Diese Daten werden niemals an unsere Server oder Dritte übertragen.</li>
+</ul>
+<h3 id="systemberechtigungen">Systemberechtigungen</h3>
+<p>Wenn unsere Anwendungen Systemberechtigungen anfordern (z. B. das Ändern von Systemeinstellungen oder die Aktivierung der Vibration), dienen diese ausschließlich dazu, Kernfunktionen auf Ihrem Gerät bereitzustellen:</p>
+<ul>
+<li><strong>Bildschirmhelligkeit:</strong> Wird im OLED-Dunkelmodus dynamisch angepasst, um Ihren Bildschirm zu schonen und beim Zählen Batterie zu sparen.</li>
+<li><strong>Haptisches Feedback:</strong> Gibt eine sanfte Vibration als taktile Bestätigung beim Erhöhen des Zählers.</li>
+</ul>
+<p>Diese Berechtigungen werden niemals verwendet, um Informationen zu sammeln oder Ihr Verhalten zu analysieren.</p>
+<h3 id="kontakt">Kontakt</h3>
+<p>Wenn Sie Fragen zu dieser Datenschutzerklärung haben, können Sie uns gerne unter <strong><a href="mailto:contact@pulattech.com">contact@pulattech.com</a></strong> kontaktieren.</p>
+
+      </div>
+    
+    
+  </article>
+</main>
+
+<footer>
+  <div class="container" style="padding: 0 2rem; display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+    <p style="margin: 0;">&copy; 2026 Pulattech. All rights reserved.</p>
+    <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+      
+      
+        <a href="/de/privacy/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.2s ease;">
+          Datenschutzerklärung
+        </a>
+      
+      <span style="color: #222222;">|</span>
+      <a href="mailto:contact@pulattech.com" class="footer-contact-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+        Kontakt
+      </a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+

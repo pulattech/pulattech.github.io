@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sayaç Uygulaması (Counter) - Pulattech</title>
+  
+  
+    <meta name="description" content="Telefonunuz için basit ve şık bir sayaç uygulaması.">
+  
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<header>
+  <div class="nav-container">
+    <a href="/tr/" class="logo">Pulattech</a>
+    <div class="nav-links">
+      <div class="lang-dropdown">
+        <button class="lang-dropdown-btn" onclick="toggleDropdown(event)">
+          🇹🇷 Türkçe
+          <span class="dropdown-arrow">▼</span>
+        </button>
+        <div class="lang-dropdown-content" id="langDropdown">
+          
+            <a href="/counter/" class="">
+              🇺🇸 English
+            </a>
+          
+            <a href="/tr/counter/" class="active">
+              🇹🇷 Türkçe
+            </a>
+          
+            <a href="/fr/counter/" class="">
+              🇫🇷 Français
+            </a>
+          
+            <a href="/de/counter/" class="">
+              🇩🇪 Deutsch
+            </a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+function toggleDropdown(event) {
+  event.stopPropagation();
+  const dropdown = document.getElementById('langDropdown');
+  dropdown.classList.toggle('show');
+  
+  const btn = event.currentTarget;
+  btn.classList.toggle('active-btn');
+}
+
+
+window.addEventListener('click', function(event) {
+  const dropdown = document.getElementById('langDropdown');
+  const btn = document.querySelector('.lang-dropdown-btn');
+  if (dropdown && dropdown.classList.contains('show')) {
+    if (!dropdown.contains(event.target) && !btn.contains(event.target)) {
+      dropdown.classList.remove('show');
+      btn.classList.remove('active-btn');
+    }
+  }
+});
+</script>
+
+
+<main class="container">
+  <article class="privacy-container prose">
+    
+    
+      
+      <div class="app-header">
+        <img src="/images/counter/logo.png" alt="Sayaç Uygulaması (Counter) Logo" class="app-logo">
+        <h1 style="margin-top: 0;">Sayaç Uygulaması (Counter)</h1>
+        <div class="store-buttons">
+  <a href="#" class="store-btn-link">
+    <img src="/images/badges/appstore.svg" alt="Download on the App Store" class="store-badge-img">
+  </a>
+  <a href="#" class="store-btn-link">
+    <img src="/images/badges/googleplay.svg" alt="Get it on Google Play" class="store-badge-img">
+  </a>
+</div>
+
+      </div>
+      
+      
+      <div class="screenshot-gallery">
+        
+          
+          
+          <div class="screenshot-card" onclick="openModal('\/images\/counter\/screenshot-01.png')" style="cursor: pointer;">
+            <img src="/images/counter/screenshot-01.png" alt="Counter App Screenshot 01" loading="lazy">
+          </div>
+        
+          
+          
+          <div class="screenshot-card" onclick="openModal('\/images\/counter\/screenshot-02.png')" style="cursor: pointer;">
+            <img src="/images/counter/screenshot-02.png" alt="Counter App Screenshot 02" loading="lazy">
+          </div>
+        
+          
+          
+          <div class="screenshot-card" onclick="openModal('\/images\/counter\/screenshot-03.png')" style="cursor: pointer;">
+            <img src="/images/counter/screenshot-03.png" alt="Counter App Screenshot 03" loading="lazy">
+          </div>
+        
+          
+          
+          <div class="screenshot-card" onclick="openModal('\/images\/counter\/screenshot-04.png')" style="cursor: pointer;">
+            <img src="/images/counter/screenshot-04.png" alt="Counter App Screenshot 04" loading="lazy">
+          </div>
+        
+          
+          
+          <div class="screenshot-card" onclick="openModal('\/images\/counter\/screenshot-05.png')" style="cursor: pointer;">
+            <img src="/images/counter/screenshot-05.png" alt="Counter App Screenshot 05" loading="lazy">
+          </div>
+        
+      </div>
+      <div class="content-body">
+        <p>Pulattech tarafından geliştirilen <strong>Sayaç (Counter)</strong>, herhangi bir şeyi saymanıza yardımcı olan temiz ve basit bir uygulamadır. Harika görünecek, pil tasarrufu yapacak ve kullanımı çok kolay olacak şekilde tasarlanmıştır.</p>
+<h3 id="kolay-özellikler">Kolay Özellikler</h3>
+<ul>
+<li>
+<p><strong>Ses Tuşlarıyla Sayın</strong>
+Ekrana bakmanıza bile gerek kalmadan sayın. Saymak için telefonunuzun yanındaki ses açma/kısma tuşlarına basabilirsiniz.</p>
+</li>
+<li>
+<p><strong>Pil Tasarrufu Sağlar</strong>
+Ekran, sayılar hariç karanlık kalır. Bu sayede sayım yaparken telefonunuzun şarjını çok az harcar.</p>
+</li>
+<li>
+<p><strong>Ekranı Kilitleyin</strong>
+Yanlışlıkla dokunup sayıyı değiştirmemek için ekranı kilitleyebilirsiniz. Kilit simgesine basılı tutarak kilidi kolayca açabilirsiniz.</p>
+</li>
+<li>
+<p><strong>Hafif Titreşim</strong>
+Her sayı artışında hafif bir titreşim hissedersiniz, böylece saydığınızdan emin olursunuz. Ayrıca sayım yaparken ekran kapanmaz.</p>
+</li>
+<li>
+<p><strong>Farklı Listeler Tutun</strong>
+Aynı anda farklı şeyleri takip edin. Sayaçlarınıza isim verebilir, renk seçebilir, sıfırlayabilir veya işiniz bittiğinde silebilirsiniz.</p>
+</li>
+<li>
+<p><strong>Hedef Belirleyin</strong>
+Belirli bir sayıya kadar saymak istiyorsanız, o sayıya ulaştığınızda uygulama sizi titreşimle uyarır.</p>
+</li>
+</ul>
+
+      </div>
+      
+      
+      <div class="support-section">
+        <h3>
+          Desteğe mi ihtiyacınız var?
+        </h3>
+        <p>
+          
+            Herhangi bir sorunuz, geri bildiriminiz veya özellik talebiniz varsa lütfen bizimle iletişime geçin.
+          
+        </p>
+        <a href="mailto:contact@pulattech.com" class="btn-support">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; margin-right:0.25rem;"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+          Destekle İletişime Geç
+        </a>
+      </div>
+      
+      
+      <div id="imageModal" class="screenshot-modal" onclick="closeModal()">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img class="screenshot-modal-content" id="modalImage">
+      </div>
+
+      <script>
+      function openModal(imgSrc) {
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        modal.style.display = "flex";
+        modalImg.src = imgSrc;
+      }
+
+      function closeModal() {
+        const modal = document.getElementById('imageModal');
+        modal.style.display = "none";
+      }
+      </script>
+      
+    
+    
+  </article>
+</main>
+
+<footer>
+  <div class="container" style="padding: 0 2rem; display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+    <p style="margin: 0;">&copy; 2026 Pulattech. All rights reserved.</p>
+    <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+      
+      
+        <a href="/tr/privacy/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.2s ease;">
+          Gizlilik Politikası
+        </a>
+      
+      <span style="color: #222222;">|</span>
+      <a href="mailto:contact@pulattech.com" class="footer-contact-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+        İletişim
+      </a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+

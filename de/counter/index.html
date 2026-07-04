@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zähler-App (Counter) - Pulattech</title>
+  
+  
+    <meta name="description" content="Eine einfache und schöne Zähler-App für Ihr Telefon.">
+  
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<header>
+  <div class="nav-container">
+    <a href="/de/" class="logo">Pulattech</a>
+    <div class="nav-links">
+      <div class="lang-dropdown">
+        <button class="lang-dropdown-btn" onclick="toggleDropdown(event)">
+          🇩🇪 Deutsch
+          <span class="dropdown-arrow">▼</span>
+        </button>
+        <div class="lang-dropdown-content" id="langDropdown">
+          
+            <a href="/counter/" class="">
+              🇺🇸 English
+            </a>
+          
+            <a href="/tr/counter/" class="">
+              🇹🇷 Türkçe
+            </a>
+          
+            <a href="/fr/counter/" class="">
+              🇫🇷 Français
+            </a>
+          
+            <a href="/de/counter/" class="active">
+              🇩🇪 Deutsch
+            </a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+function toggleDropdown(event) {
+  event.stopPropagation();
+  const dropdown = document.getElementById('langDropdown');
+  dropdown.classList.toggle('show');
+  
+  const btn = event.currentTarget;
+  btn.classList.toggle('active-btn');
+}
+
+
+window.addEventListener('click', function(event) {
+  const dropdown = document.getElementById('langDropdown');
+  const btn = document.querySelector('.lang-dropdown-btn');
+  if (dropdown && dropdown.classList.contains('show')) {
+    if (!dropdown.contains(event.target) && !btn.contains(event.target)) {
+      dropdown.classList.remove('show');
+      btn.classList.remove('active-btn');
+    }
+  }
+});
+</script>
+
+
+<main class="container">
+  <article class="privacy-container prose">
+    
+    
+      
+      <div class="app-header">
+        <img src="/images/counter/logo.png" alt="Zähler-App (Counter) Logo" class="app-logo">
+        <h1 style="margin-top: 0;">Zähler-App (Counter)</h1>
+        <div class="store-buttons">
+  <a href="#" class="store-btn-link">
+    <img src="/images/badges/appstore.svg" alt="Download on the App Store" class="store-badge-img">
+  </a>
+  <a href="#" class="store-btn-link">
+    <img src="/images/badges/googleplay.svg" alt="Get it on Google Play" class="store-badge-img">
+  </a>
+</div>
+
+      </div>
+      
+      
+      <div class="screenshot-gallery">
+        
+          
+          
+          <div class="screenshot-card" onclick="openModal('\/images\/counter\/screenshot-01.png')" style="cursor: pointer;">
+            <img src="/images/counter/screenshot-01.png" alt="Counter App Screenshot 01" loading="lazy">
+          </div>
+        
+          
+          
+          <div class="screenshot-card" onclick="openModal('\/images\/counter\/screenshot-02.png')" style="cursor: pointer;">
+            <img src="/images/counter/screenshot-02.png" alt="Counter App Screenshot 02" loading="lazy">
+          </div>
+        
+          
+          
+          <div class="screenshot-card" onclick="openModal('\/images\/counter\/screenshot-03.png')" style="cursor: pointer;">
+            <img src="/images/counter/screenshot-03.png" alt="Counter App Screenshot 03" loading="lazy">
+          </div>
+        
+          
+          
+          <div class="screenshot-card" onclick="openModal('\/images\/counter\/screenshot-04.png')" style="cursor: pointer;">
+            <img src="/images/counter/screenshot-04.png" alt="Counter App Screenshot 04" loading="lazy">
+          </div>
+        
+          
+          
+          <div class="screenshot-card" onclick="openModal('\/images\/counter\/screenshot-05.png')" style="cursor: pointer;">
+            <img src="/images/counter/screenshot-05.png" alt="Counter App Screenshot 05" loading="lazy">
+          </div>
+        
+      </div>
+      <div class="content-body">
+        <p>Die <strong>Counter</strong> App von Pulattech ist ein einfaches Hilfsmittel, mit dem Sie alles Mögliche zählen können. Sie sieht schick aus, schont den Akku Ihres Telefons und ist kinderleicht zu bedienen.</p>
+<h3 id="einfache-funktionen">Einfache Funktionen</h3>
+<ul>
+<li>
+<p><strong>Zählen mit den Lautstärketasten</strong>
+Zählen Sie, ohne auf Ihren Bildschirm schauen zu müssen. Nutzen Sie die Lautstärketasten an der Seite Ihres Telefons, um hoch oder runter zu zählen.</p>
+</li>
+<li>
+<p><strong>Spart Akku</strong>
+Der Bildschirm bleibt bis auf die Zahlen dunkel. Das verbraucht beim Zählen fast keinen Akku.</p>
+</li>
+<li>
+<p><strong>Bildschirm sperren</strong>
+Sperren Sie den Bildschirm während des Zählens, um Fehler zu vermeiden. Durch einfaches Gedrückthalten des Schloss-Symbols entsperren Sie ihn wieder.</p>
+</li>
+<li>
+<p><strong>Sanfte Vibration</strong>
+Bei jedem Zählen vibriert das Telefon kurz, damit Sie wissen, dass es geklappt hat. Der Bildschirm bleibt beim Zählen immer eingeschaltet.</p>
+</li>
+<li>
+<p><strong>Mehrere Zähler erstellen</strong>
+Behalten Sie verschiedene Dinge gleichzeitig im Auge. Sie können Namen und Farben vergeben, Zähler zurücksetzen oder löschen.</p>
+</li>
+<li>
+<p><strong>Ein Limit setzen</strong>
+Wenn Sie bis zu einer bestimmten Zahl zählen möchten, vibriert das Telefon, sobald Sie diese erreicht haben.</p>
+</li>
+</ul>
+
+      </div>
+      
+      
+      <div class="support-section">
+        <h3>
+          Benötigen Sie Hilfe?
+        </h3>
+        <p>
+          
+            Wenn Sie Fragen, Feedback oder Feature-Anfragen haben, wenden Sie sich bitte an uns.
+          
+        </p>
+        <a href="mailto:contact@pulattech.com" class="btn-support">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; margin-right:0.25rem;"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+          Support kontaktieren
+        </a>
+      </div>
+      
+      
+      <div id="imageModal" class="screenshot-modal" onclick="closeModal()">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img class="screenshot-modal-content" id="modalImage">
+      </div>
+
+      <script>
+      function openModal(imgSrc) {
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        modal.style.display = "flex";
+        modalImg.src = imgSrc;
+      }
+
+      function closeModal() {
+        const modal = document.getElementById('imageModal');
+        modal.style.display = "none";
+      }
+      </script>
+      
+    
+    
+  </article>
+</main>
+
+<footer>
+  <div class="container" style="padding: 0 2rem; display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+    <p style="margin: 0;">&copy; 2026 Pulattech. All rights reserved.</p>
+    <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+      
+      
+        <a href="/de/privacy/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.2s ease;">
+          Datenschutzerklärung
+        </a>
+      
+      <span style="color: #222222;">|</span>
+      <a href="mailto:contact@pulattech.com" class="footer-contact-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+        Kontakt
+      </a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+

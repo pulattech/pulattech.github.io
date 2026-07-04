@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Pulattech</title>
+		<link>https://pulattech.com/fr/</link>
+		<description>Recent content on Pulattech</description>
+		<generator>Hugo</generator>
+		<language>fr-FR</language>
+		
+		
+		
+		
+			<atom:link href="https://pulattech.com/fr/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Application de Comptage (Counter)</title>
+				<link>https://pulattech.com/fr/counter/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://pulattech.com/fr/counter/</guid>
+				<description>&lt;p&gt;L&amp;rsquo;application &lt;strong&gt;Counter&lt;/strong&gt; de Pulattech est un outil simple et épuré pour vous aider à compter. Elle est conçue pour être très facile à utiliser et pour économiser la batterie de votre téléphone.&lt;/p&gt;&#xA;&lt;h3 id=&#34;fonctionnalités-simples&#34;&gt;Fonctionnalités Simples&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Compter avec les Boutons de Volume&lt;/strong&gt;&#xA;Comptez sans même regarder votre écran. Utilisez les boutons de volume sur le côté de votre téléphone pour ajouter ou enlever un nombre.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Économise la Batterie&lt;/strong&gt;&#xA;L&amp;rsquo;écran reste sombre, sauf pour afficher les chiffres. Cela consomme très peu de batterie pendant que vous comptez.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Politique de Confidentialité</title>
+				<link>https://pulattech.com/fr/privacy/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://pulattech.com/fr/privacy/</guid>
+				<description>&lt;p&gt;Pulattech respecte votre vie privée. Nous pensons que vos données personnelles vous appartiennent.&lt;/p&gt;&#xA;&lt;h3 id=&#34;aucune-collecte-de-données&#34;&gt;Aucune Collecte de Données&lt;/h3&gt;&#xA;&lt;p&gt;Nos applications (y compris l&amp;rsquo;application de comptage) sont conçues dans le &lt;strong&gt;respect absolu de la vie privée&lt;/strong&gt; :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Nous &lt;strong&gt;ne collectons, ne stockons et ne partageons aucune&lt;/strong&gt; de vos informations personnelles.&lt;/li&gt;&#xA;&lt;li&gt;We &lt;strong&gt;n&amp;rsquo;utilisons pas&lt;/strong&gt; de scripts de suivi tiers, d&amp;rsquo;outils d&amp;rsquo;analyse ou de réseaux publicitaires qui vous surveillent sur d&amp;rsquo;autres sites ou applications.&lt;/li&gt;&#xA;&lt;li&gt;Toutes les données de l&amp;rsquo;application, les paramètres et l&amp;rsquo;historique des compteurs sont stockés &lt;strong&gt;localement sur votre appareil&lt;/strong&gt;. Aucune donnée n&amp;rsquo;est jamais transmise à nos serveurs ou à des tiers.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;autorisations-système&#34;&gt;Autorisations Système&lt;/h3&gt;&#xA;&lt;p&gt;Si nos applications demandent des autorisations système (comme la modification des paramètres système ou l&amp;rsquo;activation du vibreur), elles sont uniquement utilisées pour activer des fonctionnalités essentielles sur votre appareil :&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Counter App - Pulattech</title>
+  
+  
+    <meta name="description" content="A simple and beautiful counter app for your phone.">
+  
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<header>
+  <div class="nav-container">
+    <a href="/" class="logo">Pulattech</a>
+    <div class="nav-links">
+      <div class="lang-dropdown">
+        <button class="lang-dropdown-btn" onclick="toggleDropdown(event)">
+          🇺🇸 English
+          <span class="dropdown-arrow">▼</span>
+        </button>
+        <div class="lang-dropdown-content" id="langDropdown">
+          
+            <a href="/counter/" class="active">
+              🇺🇸 English
+            </a>
+          
+            <a href="/tr/counter/" class="">
+              🇹🇷 Türkçe
+            </a>
+          
+            <a href="/fr/counter/" class="">
+              🇫🇷 Français
+            </a>
+          
+            <a href="/de/counter/" class="">
+              🇩🇪 Deutsch
+            </a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+function toggleDropdown(event) {
+  event.stopPropagation();
+  const dropdown = document.getElementById('langDropdown');
+  dropdown.classList.toggle('show');
+  
+  const btn = event.currentTarget;
+  btn.classList.toggle('active-btn');
+}
+
+
+window.addEventListener('click', function(event) {
+  const dropdown = document.getElementById('langDropdown');
+  const btn = document.querySelector('.lang-dropdown-btn');
+  if (dropdown && dropdown.classList.contains('show')) {
+    if (!dropdown.contains(event.target) && !btn.contains(event.target)) {
+      dropdown.classList.remove('show');
+      btn.classList.remove('active-btn');
+    }
+  }
+});
+</script>
+
+
+<main class="container">
+  <article class="privacy-container prose">
+    
+    
+      
+      <div class="app-header">
+        <img src="/images/counter/logo.png" alt="Counter App Logo" class="app-logo">
+        <h1 style="margin-top: 0;">Counter App</h1>
+        <div class="store-buttons">
+  <a href="#" class="store-btn-link">
+    <img src="/images/badges/appstore.svg" alt="Download on the App Store" class="store-badge-img">
+  </a>
+  <a href="#" class="store-btn-link">
+    <img src="/images/badges/googleplay.svg" alt="Get it on Google Play" class="store-badge-img">
+  </a>
+</div>
+
+      </div>
+      
+      
+      <div class="screenshot-gallery">
+        
+          
+          
+          <div class="screenshot-card" onclick="openModal('\/images\/counter\/screenshot-01.png')" style="cursor: pointer;">
+            <img src="/images/counter/screenshot-01.png" alt="Counter App Screenshot 01" loading="lazy">
+          </div>
+        
+          
+          
+          <div class="screenshot-card" onclick="openModal('\/images\/counter\/screenshot-02.png')" style="cursor: pointer;">
+            <img src="/images/counter/screenshot-02.png" alt="Counter App Screenshot 02" loading="lazy">
+          </div>
+        
+          
+          
+          <div class="screenshot-card" onclick="openModal('\/images\/counter\/screenshot-03.png')" style="cursor: pointer;">
+            <img src="/images/counter/screenshot-03.png" alt="Counter App Screenshot 03" loading="lazy">
+          </div>
+        
+          
+          
+          <div class="screenshot-card" onclick="openModal('\/images\/counter\/screenshot-04.png')" style="cursor: pointer;">
+            <img src="/images/counter/screenshot-04.png" alt="Counter App Screenshot 04" loading="lazy">
+          </div>
+        
+          
+          
+          <div class="screenshot-card" onclick="openModal('\/images\/counter\/screenshot-05.png')" style="cursor: pointer;">
+            <img src="/images/counter/screenshot-05.png" alt="Counter App Screenshot 05" loading="lazy">
+          </div>
+        
+      </div>
+      <div class="content-body">
+        <p><strong>Counter</strong> by Pulattech is a clean and simple app to help you count anything. It is designed to look great, save your phone&rsquo;s battery, and be very easy to use.</p>
+<h3 id="easy-features">Easy Features</h3>
+<ul>
+<li>
+<p><strong>Use Volume Buttons to Count</strong>
+Count without even looking at your screen. You can click the volume buttons on the side of your phone to count up or down.</p>
+</li>
+<li>
+<p><strong>Saves Battery</strong>
+The app keeps the screen dark except for the numbers. This uses very little battery while you are counting.</p>
+</li>
+<li>
+<p><strong>Lock Your Screen</strong>
+Lock the screen while counting so you do not click anything by mistake. A simple press and hold opens it again.</p>
+</li>
+<li>
+<p><strong>Gentle Vibration</strong>
+The phone gives a light buzz when you count so you know it worked. The screen also stays on so it won&rsquo;t sleep while you count.</p>
+</li>
+<li>
+<p><strong>Keep Multiple Lists</strong>
+Track different counts at the same time. You can name them, color them, reset, or delete them when you&rsquo;re done.</p>
+</li>
+<li>
+<p><strong>Set a Limit</strong>
+If you want to count up to a certain number, the app will vibrate to let you know you reached it.</p>
+</li>
+</ul>
+
+      </div>
+      
+      
+      <div class="support-section">
+        <h3>
+          Need support?
+        </h3>
+        <p>
+          
+            If you have any questions, feedback, or feature requests, please get in touch with us.
+          
+        </p>
+        <a href="mailto:contact@pulattech.com" class="btn-support">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block; vertical-align:middle; margin-right:0.25rem;"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+          Contact Support
+        </a>
+      </div>
+      
+      
+      <div id="imageModal" class="screenshot-modal" onclick="closeModal()">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img class="screenshot-modal-content" id="modalImage">
+      </div>
+
+      <script>
+      function openModal(imgSrc) {
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        modal.style.display = "flex";
+        modalImg.src = imgSrc;
+      }
+
+      function closeModal() {
+        const modal = document.getElementById('imageModal');
+        modal.style.display = "none";
+      }
+      </script>
+      
+    
+    
+  </article>
+</main>
+
+<footer>
+  <div class="container" style="padding: 0 2rem; display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+    <p style="margin: 0;">&copy; 2026 Pulattech. All rights reserved.</p>
+    <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+      
+      
+        <a href="/privacy/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.2s ease;">
+          Privacy Policy
+        </a>
+      
+      <span style="color: #222222;">|</span>
+      <a href="mailto:contact@pulattech.com" class="footer-contact-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+        Contact
+      </a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+

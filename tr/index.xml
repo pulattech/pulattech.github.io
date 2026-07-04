@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Pulattech</title>
+		<link>https://pulattech.com/tr/</link>
+		<description>Recent content on Pulattech</description>
+		<generator>Hugo</generator>
+		<language>tr-TR</language>
+		
+		
+		
+		
+			<atom:link href="https://pulattech.com/tr/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Gizlilik Politikası</title>
+				<link>https://pulattech.com/tr/privacy/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://pulattech.com/tr/privacy/</guid>
+				<description>&lt;p&gt;Pulattech gizliliğinize önem verir. Kişisel verilerinizin yalnızca size ait olması gerektiğine inanıyoruz.&lt;/p&gt;&#xA;&lt;h3 id=&#34;sıfır-veri-toplama&#34;&gt;Sıfır Veri Toplama&lt;/h3&gt;&#xA;&lt;p&gt;Uygulamalarımız (Sayaç Uygulaması dahil) &lt;strong&gt;önce gizlilik&lt;/strong&gt; ilkesiyle tasarlanmıştır:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Kişisel bilgilerinizi &lt;strong&gt;toplamıyoruz, saklamıyoruz veya paylaşmıyoruz&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Sizi web siteleri veya uygulamalar arasında takip eden üçüncü taraf izleme betikleri, analitik araçları veya reklam ağları &lt;strong&gt;kullanmıyoruz&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Tüm uygulama verileri, ayarları ve sayaç kayıtları &lt;strong&gt;cihazınızda yerel olarak saklanır&lt;/strong&gt;. Bu verilerin hiçbiri asla sunucularımıza veya herhangi bir üçüncü tarafa iletilmez.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;sistem-izinleri&#34;&gt;Sistem İzinleri&lt;/h3&gt;&#xA;&lt;p&gt;Uygulamalarımız sistem izinleri talep ederse (sistem ayarlarını değiştirme veya titreşim gibi), bunlar yalnızca cihazınızdaki temel özellikleri etkinleştirmek için kullanılır:&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Sayaç Uygulaması (Counter)</title>
+				<link>https://pulattech.com/tr/counter/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://pulattech.com/tr/counter/</guid>
+				<description>&lt;p&gt;Pulattech tarafından geliştirilen &lt;strong&gt;Sayaç (Counter)&lt;/strong&gt;, herhangi bir şeyi saymanıza yardımcı olan temiz ve basit bir uygulamadır. Harika görünecek, pil tasarrufu yapacak ve kullanımı çok kolay olacak şekilde tasarlanmıştır.&lt;/p&gt;&#xA;&lt;h3 id=&#34;kolay-özellikler&#34;&gt;Kolay Özellikler&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ses Tuşlarıyla Sayın&lt;/strong&gt;&#xA;Ekrana bakmanıza bile gerek kalmadan sayın. Saymak için telefonunuzun yanındaki ses açma/kısma tuşlarına basabilirsiniz.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Pil Tasarrufu Sağlar&lt;/strong&gt;&#xA;Ekran, sayılar hariç karanlık kalır. Bu sayede sayım yaparken telefonunuzun şarjını çok az harcar.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ekranı Kilitleyin&lt;/strong&gt;&#xA;Yanlışlıkla dokunup sayıyı değiştirmemek için ekranı kilitleyebilirsiniz. Kilit simgesine basılı tutarak kilidi kolayca açabilirsiniz.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

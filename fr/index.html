@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta name="generator" content="Hugo 0.162.1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pulattech</title>
+  
+  
+    <meta name="description" content="Des applications minimalistes et performantes, conçues pour l&#39;excellence visuelle et fonctionnelle.">
+  
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<header>
+  <div class="nav-container">
+    <a href="/fr/" class="logo">Pulattech</a>
+    <div class="nav-links">
+      <div class="lang-dropdown">
+        <button class="lang-dropdown-btn" onclick="toggleDropdown(event)">
+          🇫🇷 Français
+          <span class="dropdown-arrow">▼</span>
+        </button>
+        <div class="lang-dropdown-content" id="langDropdown">
+          
+            <a href="/" class="">
+              🇺🇸 English
+            </a>
+          
+            <a href="/tr/" class="">
+              🇹🇷 Türkçe
+            </a>
+          
+            <a href="/fr/" class="active">
+              🇫🇷 Français
+            </a>
+          
+            <a href="/de/" class="">
+              🇩🇪 Deutsch
+            </a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+function toggleDropdown(event) {
+  event.stopPropagation();
+  const dropdown = document.getElementById('langDropdown');
+  dropdown.classList.toggle('show');
+  
+  const btn = event.currentTarget;
+  btn.classList.toggle('active-btn');
+}
+
+
+window.addEventListener('click', function(event) {
+  const dropdown = document.getElementById('langDropdown');
+  const btn = document.querySelector('.lang-dropdown-btn');
+  if (dropdown && dropdown.classList.contains('show')) {
+    if (!dropdown.contains(event.target) && !btn.contains(event.target)) {
+      dropdown.classList.remove('show');
+      btn.classList.remove('active-btn');
+    }
+  }
+});
+</script>
+
+
+<main class="container">
+  <section class="app-hero-showcase">
+    
+    <div class="app-showcase-logo">
+      <img src="/images/counter/logo.png" alt="Counter Logo" class="showcase-logo">
+    </div>
+    
+    
+    <h1 class="app-showcase-name">
+      Counter
+    </h1>
+    
+    
+    <p class="app-showcase-desc">
+      
+        Un compteur élégant et simple qui vous permet de tout compter facilement avec vos boutons latéraux et économise la batterie.
+      
+    </p>
+    
+    
+    <div class="app-showcase-action">
+      
+        <a href="/fr/counter/" class="btn-primary-cta">
+          Découvrir l'application
+        </a>
+      
+    </div>
+
+    
+    <div class="app-showcase-preview">
+      <img src="/images/counter/hero-screenshot.png" alt="Counter App Interface" class="showcase-screenshot">
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container" style="padding: 0 2rem; display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+    <p style="margin: 0;">&copy; 2026 Pulattech. All rights reserved.</p>
+    <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+      
+      
+        <a href="/fr/privacy/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.2s ease;">
+          Politique de Confidentialité
+        </a>
+      
+      <span style="color: #222222;">|</span>
+      <a href="mailto:contact@pulattech.com" class="footer-contact-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+        Contact
+      </a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+

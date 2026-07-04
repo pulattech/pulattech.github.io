@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy - Pulattech</title>
+  
+  
+    <meta name="description" content="Pulattech Apps Privacy Policy - Simple, zero data collection policy.">
+  
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<header>
+  <div class="nav-container">
+    <a href="/" class="logo">Pulattech</a>
+    <div class="nav-links">
+      <div class="lang-dropdown">
+        <button class="lang-dropdown-btn" onclick="toggleDropdown(event)">
+          🇺🇸 English
+          <span class="dropdown-arrow">▼</span>
+        </button>
+        <div class="lang-dropdown-content" id="langDropdown">
+          
+            <a href="/privacy/" class="active">
+              🇺🇸 English
+            </a>
+          
+            <a href="/tr/privacy/" class="">
+              🇹🇷 Türkçe
+            </a>
+          
+            <a href="/fr/privacy/" class="">
+              🇫🇷 Français
+            </a>
+          
+            <a href="/de/privacy/" class="">
+              🇩🇪 Deutsch
+            </a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+function toggleDropdown(event) {
+  event.stopPropagation();
+  const dropdown = document.getElementById('langDropdown');
+  dropdown.classList.toggle('show');
+  
+  const btn = event.currentTarget;
+  btn.classList.toggle('active-btn');
+}
+
+
+window.addEventListener('click', function(event) {
+  const dropdown = document.getElementById('langDropdown');
+  const btn = document.querySelector('.lang-dropdown-btn');
+  if (dropdown && dropdown.classList.contains('show')) {
+    if (!dropdown.contains(event.target) && !btn.contains(event.target)) {
+      dropdown.classList.remove('show');
+      btn.classList.remove('active-btn');
+    }
+  }
+});
+</script>
+
+
+<main class="container">
+  <article class="privacy-container prose">
+    
+    
+      
+      <h1>Privacy Policy</h1>
+      <div class="content-body">
+        <p>Pulattech values your privacy. We believe that your personal data belongs to you.</p>
+<h3 id="zero-data-collection">Zero Data Collection</h3>
+<p>Our applications (including the Counter App) are designed with a <strong>privacy-first</strong> approach:</p>
+<ul>
+<li>We <strong>do not collect, store, or share</strong> any of your personal information.</li>
+<li>We <strong>do not use</strong> third-party tracking scripts, analytics tools, or advertising networks that monitor you across websites or apps.</li>
+<li>All application data, settings, and counter logs are stored <strong>locally on your device</strong>. None of this data is ever transmitted to our servers or any third parties.</li>
+</ul>
+<h3 id="system-permissions">System Permissions</h3>
+<p>If our applications request system permissions (such as modifying system settings or enabling vibration), they are used solely to enable core features on your device:</p>
+<ul>
+<li><strong>Screen Brightness:</strong> Used dynamically in OLED dark mode to protect your screen and save battery while counting.</li>
+<li><strong>Haptic Feedback:</strong> Used to provide tactile confirmation when you increment a counter.</li>
+</ul>
+<p>These permissions are never used to gather information or track your usage.</p>
+<h3 id="contact-us">Contact Us</h3>
+<p>If you have any questions about this privacy policy, please feel free to reach out to us at <strong><a href="mailto:contact@pulattech.com">contact@pulattech.com</a></strong>.</p>
+
+      </div>
+    
+    
+  </article>
+</main>
+
+<footer>
+  <div class="container" style="padding: 0 2rem; display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+    <p style="margin: 0;">&copy; 2026 Pulattech. All rights reserved.</p>
+    <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+      
+      
+        <a href="/privacy/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.9rem; transition: color 0.2s ease;">
+          Privacy Policy
+        </a>
+      
+      <span style="color: #222222;">|</span>
+      <a href="mailto:contact@pulattech.com" class="footer-contact-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+        Contact
+      </a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+

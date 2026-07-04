@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Pulattech</title>
+		<link>https://pulattech.com/</link>
+		<description>Recent content on Pulattech</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<atom:link href="https://pulattech.com/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Counter App</title>
+				<link>https://pulattech.com/counter/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://pulattech.com/counter/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Counter&lt;/strong&gt; by Pulattech is a clean and simple app to help you count anything. It is designed to look great, save your phone&amp;rsquo;s battery, and be very easy to use.&lt;/p&gt;&#xA;&lt;h3 id=&#34;easy-features&#34;&gt;Easy Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Use Volume Buttons to Count&lt;/strong&gt;&#xA;Count without even looking at your screen. You can click the volume buttons on the side of your phone to count up or down.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Saves Battery&lt;/strong&gt;&#xA;The app keeps the screen dark except for the numbers. This uses very little battery while you are counting.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Privacy Policy</title>
+				<link>https://pulattech.com/privacy/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://pulattech.com/privacy/</guid>
+				<description>&lt;p&gt;Pulattech values your privacy. We believe that your personal data belongs to you.&lt;/p&gt;&#xA;&lt;h3 id=&#34;zero-data-collection&#34;&gt;Zero Data Collection&lt;/h3&gt;&#xA;&lt;p&gt;Our applications (including the Counter App) are designed with a &lt;strong&gt;privacy-first&lt;/strong&gt; approach:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;We &lt;strong&gt;do not collect, store, or share&lt;/strong&gt; any of your personal information.&lt;/li&gt;&#xA;&lt;li&gt;We &lt;strong&gt;do not use&lt;/strong&gt; third-party tracking scripts, analytics tools, or advertising networks that monitor you across websites or apps.&lt;/li&gt;&#xA;&lt;li&gt;All application data, settings, and counter logs are stored &lt;strong&gt;locally on your device&lt;/strong&gt;. None of this data is ever transmitted to our servers or any third parties.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;system-permissions&#34;&gt;System Permissions&lt;/h3&gt;&#xA;&lt;p&gt;If our applications request system permissions (such as modifying system settings or enabling vibration), they are used solely to enable core features on your device:&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
